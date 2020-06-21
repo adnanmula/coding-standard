@@ -5,7 +5,7 @@
   "type": "library",
   "authors": [
     {
-      "name": "Adnan Mula",
+      "name": "Adnan Alfonso Mula Bakkar",
       "email": "adnan.mula.bakkar@gmail.com"
     }
   ],
@@ -15,8 +15,7 @@
     }
   },
   "require": {
-    "php": "^7.4",
-    "slevomat/coding-standard": "^6.2",
-    "squizlabs/php_codesniffer": "^3.5"
+    "php": "^7.2",
+    "slevomat/coding-standard": "^6.2"
   }
 }
