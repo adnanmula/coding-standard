@@ -1,0 +1,12 @@
+###> IDEA ###
+/.idea
+###< IDEA ###
+
+###> symfony/framework-bundle ###
+/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit ###
+phpunit.xml
+.phpunit.result.cache
+###< phpunit ###

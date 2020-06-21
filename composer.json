@@ -1,0 +1,22 @@
+{
+  "name": "adnanmula/coding-standard",
+  "description": "",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Adnan Mula",
+      "email": "adnan.mula.bakkar@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AdnanMula\\CodingStandard\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "slevomat/coding-standard": "^6.2",
+    "squizlabs/php_codesniffer": "^3.5"
+  }
+}
