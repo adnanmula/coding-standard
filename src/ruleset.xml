@@ -31,6 +31,7 @@
         <exclude name="SlevomatCodingStandard.TypeHints.ParameterTypeHint" />
         <exclude name="SlevomatCodingStandard.TypeHints.PropertyTypeHint" />
         <exclude name="SlevomatCodingStandard.TypeHints.ReturnTypeHint" />
+        <exclude name="SlevomatCodingStandard.ControlStructures.EarlyExit.EarlyExitNotUsed" />
     </rule>
 
     <rule ref="Generic.Files.LineLength">
@@ -44,8 +45,6 @@
             <property name="forbiddenFunctions" type="array" value="array=>null,var_dump=>null,dump=>null,dd=>null" />
         </properties>
     </rule>
-
-    <rule ref="SlevomatCodingStandard.ControlStructures.RequireYodaComparison" />
 
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
