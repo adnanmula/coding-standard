@@ -28,6 +28,8 @@
         <exclude name="SlevomatCodingStandard.TypeHints.PropertyTypeHint" />
         <exclude name="SlevomatCodingStandard.TypeHints.ReturnTypeHint" />
         <exclude name="SlevomatCodingStandard.ControlStructures.EarlyExit.EarlyExitNotUsed" />
+        <exclude name="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing.IncorrectLinesCountBeforeControlStructure" />
+        <exclude name="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing.IncorrectLinesCountAfterControlStructure" />
     </rule>
 
     <rule ref="Generic.Files.LineLength">
