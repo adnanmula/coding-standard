@@ -2,9 +2,8 @@
 /.idea
 ###< IDEA ###
 
-###> symfony/framework-bundle ###
 /vendor/
-###< symfony/framework-bundle ###
+composer.lock
 
 ###> phpunit ###
 phpunit.xml
