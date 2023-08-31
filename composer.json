@@ -16,6 +16,6 @@
   },
   "require": {
     "php": "^7.2|^8.1",
-    "slevomat/coding-standard": "^6.2"
+    "slevomat/coding-standard": "^8.13"
   }
 }

@@ -3,17 +3,30 @@
     <rule ref="PSR2" />
 
     <rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/ruleset.xml">
+        <exclude name="SlevomatCodingStandard.Arrays.AlphabeticallySortedByKeys.IncorrectKeyOrder" />
         <exclude name="SlevomatCodingStandard.Classes.ClassConstantVisibility" />
-        <exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming" />
+        <exclude name="SlevomatCodingStandard.Classes.DisallowConstructorPropertyPromotion.DisallowedConstructorPropertyPromotion" />
         <exclude name="SlevomatCodingStandard.Classes.MethodSpacing.IncorrectLinesCountBetweenMethods" />
+        <exclude name="SlevomatCodingStandard.Classes.PropertySpacing.IncorrectCountOfBlankLinesAfterProperty" />
+        <exclude name="SlevomatCodingStandard.Classes.RequireAbstractOrFinal.ClassNeitherAbstractNorFinal" />
+        <exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming" />
+        <exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming.SuperfluousSuffix" />
         <exclude name="SlevomatCodingStandard.Commenting.DisallowOneLinePropertyDocComment" />
         <exclude name="SlevomatCodingStandard.ControlStructures.AssignmentInCondition" />
+        <exclude name="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing.IncorrectLinesCountAfterControlStructure" />
+        <exclude name="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing.IncorrectLinesCountBeforeControlStructure" />
         <exclude name="SlevomatCodingStandard.ControlStructures.DisallowShortTernaryOperator" />
         <exclude name="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison" />
+        <exclude name="SlevomatCodingStandard.ControlStructures.EarlyExit.EarlyExitNotUsed" />
         <exclude name="SlevomatCodingStandard.ControlStructures.NewWithoutParentheses" />
         <exclude name="SlevomatCodingStandard.ControlStructures.RequireMultiLineTernaryOperator" />
+        <exclude name="SlevomatCodingStandard.Files.FunctionLength.FunctionLength" />
         <exclude name="SlevomatCodingStandard.Files.TypeNameMatchesFileName" />
         <exclude name="SlevomatCodingStandard.Functions.DisallowArrowFunction" />
+        <exclude name="SlevomatCodingStandard.Functions.DisallowTrailingCommaInCall.DisallowedTrailingComma" />
+        <exclude name="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration.DisallowedTrailingComma" />
+        <exclude name="SlevomatCodingStandard.Functions.FunctionLength.FunctionLength" />
+        <exclude name="SlevomatCodingStandard.Functions.RequireSingleLineCall.RequiredSingleLineCall" />
         <exclude name="SlevomatCodingStandard.Functions.UnusedParameter" />
         <exclude name="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses" />
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameAfterKeyword" />
@@ -23,13 +36,12 @@
         <exclude name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly" />
         <exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces" />
         <exclude name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators" />
+        <exclude name="SlevomatCodingStandard.TypeHints.DeclareStrictTypes.IncorrectWhitespaceBeforeDeclare" />
         <exclude name="SlevomatCodingStandard.TypeHints.LongTypeHints" />
         <exclude name="SlevomatCodingStandard.TypeHints.ParameterTypeHint" />
         <exclude name="SlevomatCodingStandard.TypeHints.PropertyTypeHint" />
         <exclude name="SlevomatCodingStandard.TypeHints.ReturnTypeHint" />
-        <exclude name="SlevomatCodingStandard.ControlStructures.EarlyExit.EarlyExitNotUsed" />
-        <exclude name="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing.IncorrectLinesCountBeforeControlStructure" />
-        <exclude name="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing.IncorrectLinesCountAfterControlStructure" />
+        <exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore" />
     </rule>
 
     <rule ref="Generic.Files.LineLength">
