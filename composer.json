@@ -15,7 +15,12 @@
     }
   },
   "require": {
-    "php": "^7.2|^8.1",
+    "php": "^8.2",
     "slevomat/coding-standard": "^8.13"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
   }
 }
