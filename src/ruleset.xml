@@ -54,7 +54,6 @@
         <exclude name="SlevomatCodingStandard.Functions.UnusedParameter" />
         <exclude name="SlevomatCodingStandard.Functions.UnusedParameter.UnusedParameter" />
         <exclude name="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses" />
-        <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameAfterKeyword" />
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation" />
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation.NonFullyQualifiedClassName" />
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedExceptions" />
