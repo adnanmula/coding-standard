@@ -34,6 +34,7 @@
         <exclude name="SlevomatCodingStandard.ControlStructures.NewWithoutParentheses.UselessParentheses" />
         <exclude name="SlevomatCodingStandard.ControlStructures.RequireMultiLineTernaryOperator" />
         <exclude name="SlevomatCodingStandard.ControlStructures.RequireMultiLineTernaryOperator.MultiLineTernaryOperatorNotUsed" />
+        <exclude name="SlevomatCodingStandard.ControlStructures.RequireTernaryOperator.TernaryOperatorNotUsed" />
         <exclude name="SlevomatCodingStandard.ControlStructures.RequireYodaComparison.RequiredYodaComparison" />
         <exclude name="SlevomatCodingStandard.Exceptions.DisallowNonCapturingCatch.DisallowedNonCapturingCatch" />
         <exclude name="SlevomatCodingStandard.Files.FileLength.FileTooLong" />
@@ -96,8 +97,7 @@
 
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
-            <property name="newlinesCountBetweenOpenTagAndDeclare" value="0"/>
-            <property name="newlinesCountAfterDeclare" value="2"/>
+            <property name="declareOnFirstLine"/>
             <property name="spacesCountAroundEqualsSign" value="0"/>
         </properties>
     </rule>
@@ -120,6 +120,12 @@
         <properties>
             <property name="linesCountAfterOpeningBrace" value="0"/>
             <property name="linesCountBeforeClosingBrace" value="0"/>
+        </properties>
+    </rule>
+
+    <rule ref="SlevomatCodingStandard.Classes.TraitUseSpacing">
+        <properties>
+            <property name="linesCountBeforeFirstUse" value="0"/>
         </properties>
     </rule>
 </ruleset>

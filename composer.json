@@ -16,7 +16,7 @@
   },
   "require": {
     "php": "^8.2",
-    "slevomat/coding-standard": "^8.13"
+    "slevomat/coding-standard": "^8.14.1"
   },
   "config": {
     "allow-plugins": {
