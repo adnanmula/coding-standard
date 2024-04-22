@@ -3,7 +3,8 @@
     <rule ref="PSR2" />
 
     <rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/ruleset.xml">
-        <exclude name="PSR1.Files.SideEffects.FoundWithSymbols" />
+        <exclude name="Generic.Files.LineEndings.InvalidEOLChar" />
+        <exclude name="SlevomatCodingStandard.Arrays.AlphabeticallySortedByKeys.IncorrectKeyOrder" />
         <exclude name="SlevomatCodingStandard.Arrays.AlphabeticallySortedByKeys.IncorrectKeyOrder" />
         <exclude name="SlevomatCodingStandard.Classes.ClassConstantVisibility" />
         <exclude name="SlevomatCodingStandard.Classes.ClassLength.ClassTooLong" />
@@ -69,7 +70,6 @@
         <exclude name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostIncrementOperator" />
         <exclude name="SlevomatCodingStandard.PHP.DisallowReference.DisallowedAssigningByReference" />
         <exclude name="SlevomatCodingStandard.PHP.RequireExplicitAssertion.RequiredExplicitAssertion" />
-        <exclude name="SlevomatCodingStandard.TypeHints.DeclareStrictTypes.IncorrectWhitespaceBeforeDeclare" />
         <exclude name="SlevomatCodingStandard.TypeHints.LongTypeHints" />
         <exclude name="SlevomatCodingStandard.TypeHints.ParameterTypeHint" />
         <exclude name="SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingAnyTypeHint" />
@@ -78,7 +78,6 @@
         <exclude name="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingTraversableTypeHintSpecification" />
         <exclude name="SlevomatCodingStandard.TypeHints.ReturnTypeHint" />
         <exclude name="SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingTraversableTypeHintSpecification" />
-        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine" />
         <exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore" />
     </rule>
 
@@ -97,7 +96,7 @@
 
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
-            <property name="declareOnFirstLine"/>
+            <property name="declareOnFirstLine" value="1"/>
             <property name="spacesCountAroundEqualsSign" value="0"/>
         </properties>
     </rule>
