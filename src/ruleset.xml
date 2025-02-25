@@ -80,10 +80,13 @@
         <exclude name="SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingTraversableTypeHintSpecification" />
         <exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore" />
         <!-- Broken sniffs on php8.4 -->
+        <exclude name="PSR2.Classes.PropertyDeclaration.Multiple" />
         <exclude name="PSR2.Classes.PropertyDeclaration.ScopeMissing" />
+        <exclude name="SlevomatCodingStandard.Classes.ClassMemberSpacing.IncorrectCountOfBlankLinesBetweenMembers" />
         <exclude name="SlevomatCodingStandard.Classes.ForbiddenPublicProperty" />
-        <exclude name="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator" />
         <exclude name="SlevomatCodingStandard.Commenting.InlineDocCommentDeclaration.MissingVariable" />
+        <exclude name="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator" />
+        <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants.NonFullyQualified" />
     </rule>
 
     <rule ref="Generic.Files.LineLength">
